@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <title>My Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/public/CSS/landing.css" />
+  </head>
+
+  <body>
+    <div class="nav">
+      <input type="checkbox" id="nav-check" />
+      <div class="nav-header">
+        <div class="nav-title">
+          Portfolio
+        </div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+      <div class="nav-links">
+        <a href="#aboutMe">About Me</a>
+        <a href="#skills">Skills</a>
+        <!-- <a href="#resume">Resume</a> -->
+        <a href="#projects">Projects</a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div
+        class="background-image"
+        style="background-image: url(/public/images/dock.jpg);"
+      ></div>
+      <div class="hero-content-area">
+        <h1>Hi I'm Recko</h1>
+        <h3>Software / Full Stack Developer</h3>
+
+        <a href="mailto:reckojean@gmail.com" class="btn">Get In Touch</a>
+      </div>
+    </section>
+
+    <section id="aboutMe" class="packages">
+      <h3 class="title">My name is Recko Jean</h3>
+      <p>
+        Hi, I'm Recko Jean from Freeport, Bahamas. I'm currently inn the market
+        looking for that first position as a developer. Although I have yet to
+        land a professional gig as a developer, I have built numerous projects
+        to show that I have the necessary skills to excell as a developer. I
+        have taught myself different languages such as Html, Css, JavaScript,
+        Php, React, React Native and the JavaScript runtime Nodejs and Java
+        which I've learned during my time at Holland College. Along with those
+        languages, I'm very knowledgeable in SQL and NoSQl databases such as
+        MongoDB, MySQL, and PostgreSQL.
+        <br />
+        I am currently attending Holland College in Canada, where my Major is
+        Computer Information Systems. I plan to Graduate in April 2022
+      </p>
+
+      <hr />
+    </section>
+
+    <section id="skills" class="destinations">
+      <h3 class="title">Technical Skills</h3>
+
+      <span>HTML</span>
+      <div class="container">
+        <div class="skills html">90%</div>
+      </div>
+      <span>JavaScript</span>
+      <div class="container">
+        <div class="skills js">80%</div>
+      </div>
+      <span>CSS</span>
+      <div class="container">
+        <div class="skills css">75%</div>
+      </div>
+      <span>Node Js</span>
+      <div class="container">
+        <div class="skills node">70%</div>
+      </div>
+      <span>Java</span>
+      <div class="container">
+        <div class="skills java">65%</div>
+      </div>
+      <span>React</span>
+      <div class="container">
+        <div class="skills react">50%</div>
+      </div>
+      <span>React Native</span>
+      <div class="container">
+        <div class="skills react-native">30%</div>
+      </div>
+    </section>
+
+    <section id="projects" class="destinations">
+      <h3 class="title">View My projects here</h3>
+      <div class="main">
+        <ul class="cards">
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image">
+                <img src="/public/images/savr.png" />
+              </div>
+              <div class="card_content">
+                <p class="card_text">
+                  Personal project #1. This is a video chat app. Technologies
+                  used are Html, Css, and JavaScript on the front end. Node js,
+                  Express on the backend and MongoDB as the database.
+                </p>
+                <button class="btn2 card_btn">View This Projects</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image">
+                <img src="/public/images/chatApp.png" />
+              </div>
+              <div class="card_content">
+                <p class="card_text">
+                  Personal project #2. This is a real time chat app built for a
+                  where students sign up login with full user authentication
+                  with login and registration. Technologies used are Html, Css,
+                  and Vanilla JavaScript on the front end. Node js, Express on
+                  the backend and MongoDB as the database.
+                </p>
+                <button class="btn2 card_btn">View This Projects</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image">
+                <img src="./images/laptop.jpg" />
+              </div>
+              <div class="card_content">
+                <p class="card_text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                  reprehenderit eligendi aperiam, magnam nemo praesentium maxime
+                  accusantium maiores quia quis. Velit laudantium culpa atque
+                  qui natus iusto eaque placeat? Maiores?
+                </p>
+                <button class="btn2 card_btn">View This Projects</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h3 class="title">I'd love to be your Developer</h3>
+
+      <form>
+  
+        <a href="mailto:reckojean@gmail.com" class="btn">Get In Touch</a>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy Recko Jean Portolio</p>
+
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/recko-jean-5369b09a/"
+            ><i class="fa fa-linkedin-square fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <script src="/public/Js/index.js"></script>
+  </body>
+</html>
